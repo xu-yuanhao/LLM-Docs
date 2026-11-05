@@ -1,56 +1,56 @@
 {
   "grok": {
-    "lastCrawl": 1793869254.431143,
-    "lastCrawlTime": "2026-11-05T09:00:54.431143",
+    "lastCrawl": 1793912182.221219,
+    "lastCrawlTime": "2026-11-05T20:56:22.221219",
+    "success": true,
+    "error": null,
+    "auto": true,
+    "duration": 0.22,
+    "docCount": 443
+  },
+  "megallm": {
+    "lastCrawl": 1793912182.448466,
+    "lastCrawlTime": "2026-11-05T20:56:22.448466",
     "success": true,
     "error": null,
     "auto": true,
     "duration": 0.1,
     "docCount": 443
   },
-  "megallm": {
-    "lastCrawl": 1793869254.543949,
-    "lastCrawlTime": "2026-11-05T09:00:54.543949",
-    "success": true,
-    "error": null,
-    "auto": true,
-    "duration": 0.09,
-    "docCount": 443
-  },
   "minimax": {
-    "lastCrawl": 1793869254.643295,
-    "lastCrawlTime": "2026-11-05T09:00:54.643295",
+    "lastCrawl": 1793912182.561542,
+    "lastCrawlTime": "2026-11-05T20:56:22.561542",
     "success": true,
     "error": null,
     "auto": true,
-    "duration": 8.13,
+    "duration": 8.14,
     "docCount": 443
   },
   "zhipu": {
-    "lastCrawl": 1793869262.778333,
-    "lastCrawlTime": "2026-11-05T09:01:02.778333",
+    "lastCrawl": 1793912190.713095,
+    "lastCrawlTime": "2026-11-05T20:56:30.713095",
     "success": true,
     "error": null,
     "auto": true,
-    "duration": 4.11,
+    "duration": 4.12,
     "docCount": 443
   },
   "claude": {
-    "lastCrawl": 1793869266.892827,
-    "lastCrawlTime": "2026-11-05T09:01:06.892827",
+    "lastCrawl": 1793912194.860665,
+    "lastCrawlTime": "2026-11-05T20:56:34.860665",
     "success": true,
     "error": null,
     "auto": true,
-    "duration": 205.49,
+    "duration": 205.55,
     "docCount": 443
   },
   "gemini": {
-    "lastCrawl": 1793869472.40388,
-    "lastCrawlTime": "2026-11-05T09:04:32.403880",
+    "lastCrawl": 1793912400.432032,
+    "lastCrawlTime": "2026-11-05T21:00:00.432032",
     "success": true,
     "error": null,
     "auto": true,
-    "duration": 21.19,
+    "duration": 21.21,
     "docCount": 443
   }
 }
