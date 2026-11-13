@@ -1,266 +1,6 @@
 [
   {
     "id": 501,
-    "timestamp": "2026-11-01T18:45:27.286202",
-    "type": "success",
-    "vendorId": "minimax",
-    "vendorName": "MiniMax",
-    "message": "Completed successfully in 8.16s, 0 docs stamped",
-    "details": {
-      "duration": 8.16,
-      "docCount": 443,
-      "headersAdded": 0,
-      "outputLines": 53
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:45:27.292383",
-    "type": "start",
-    "vendorId": "zhipu",
-    "vendorName": "Zhipu BigModel (CN)",
-    "message": "Starting crawler: download_zhipu.py ",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:45:31.436360",
-    "type": "success",
-    "vendorId": "zhipu",
-    "vendorName": "Zhipu BigModel (CN)",
-    "message": "Completed successfully in 4.14s, 0 docs stamped",
-    "details": {
-      "duration": 4.14,
-      "docCount": 443,
-      "headersAdded": 0,
-      "outputLines": 23
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:45:31.442506",
-    "type": "start",
-    "vendorId": "claude",
-    "vendorName": "Anthropic Claude",
-    "message": "Starting crawler: batch_download_docs.py --claude-only",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:48:57.479674",
-    "type": "success",
-    "vendorId": "claude",
-    "vendorName": "Anthropic Claude",
-    "message": "Completed successfully in 206.02s, 0 docs stamped",
-    "details": {
-      "duration": 206.02,
-      "docCount": 443,
-      "headersAdded": 0,
-      "outputLines": 1064
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:48:57.485734",
-    "type": "start",
-    "vendorId": "gemini",
-    "vendorName": "Google Gemini",
-    "message": "Starting crawler: batch_download_docs.py --gemini-only",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.740801",
-    "type": "success",
-    "vendorId": "gemini",
-    "vendorName": "Google Gemini",
-    "message": "Completed successfully in 21.25s, 0 docs stamped",
-    "details": {
-      "duration": 21.25,
-      "docCount": 443,
-      "headersAdded": 0,
-      "outputLines": 96
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.747003",
-    "type": "skip",
-    "vendorId": "openai",
-    "vendorName": "OpenAI",
-    "message": "Skipped (requires browser)",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.752485",
-    "type": "skip",
-    "vendorId": "moonshot",
-    "vendorName": "Moonshot Kimi",
-    "message": "Skipped (requires browser)",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.758046",
-    "type": "skip",
-    "vendorId": "zhipu_en",
-    "vendorName": "Zhipu BigModel (EN)",
-    "message": "Skipped (requires browser)",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.763477",
-    "type": "skip",
-    "vendorId": "meta",
-    "vendorName": "Meta Llama",
-    "message": "Skipped (requires browser)",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.768889",
-    "type": "skip",
-    "vendorId": "deepseek",
-    "vendorName": "DeepSeek",
-    "message": "Skipped (requires browser)",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.774325",
-    "type": "skip",
-    "vendorId": "mimo",
-    "vendorName": "Xiaomi MiMo",
-    "message": "Skipped (requires browser)",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.779749",
-    "type": "info",
-    "vendorId": "system",
-    "vendorName": "System",
-    "message": "Rebuilding docs index...",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.789848",
-    "type": "error",
-    "vendorId": "system",
-    "vendorName": "System",
-    "message": "Failed to rebuild index: [Errno 2] No such file or directory: 'docs-site/docs-index.json'",
-    "details": {
-      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/LLM-Docs/LLM-Docs/scripts/auto_crawler.py\", line 476, in crawl_all\n    build_index()\n  File \"/home/runner/work/LLM-Docs/LLM-Docs/scripts/build_docs_site.py\", line 246, in build_index\n    with open(index_path, 'w', encoding='utf-8') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'docs-site/docs-index.json'\n"
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-01T18:49:18.795575",
-    "type": "complete",
-    "vendorId": "system",
-    "vendorName": "System",
-    "message": "Batch crawl completed: 6 success, 0 failed",
-    "details": {
-      "totalDuration": 239.97,
-      "successCount": 6,
-      "failCount": 0,
-      "results": [
-        {
-          "name": "xAI Grok",
-          "success": true
-        },
-        {
-          "name": "MegaLLM",
-          "success": true
-        },
-        {
-          "name": "MiniMax",
-          "success": true
-        },
-        {
-          "name": "Zhipu BigModel (CN)",
-          "success": true
-        },
-        {
-          "name": "Anthropic Claude",
-          "success": true
-        },
-        {
-          "name": "Google Gemini",
-          "success": true
-        }
-      ]
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-02T08:56:12.100795",
-    "type": "start",
-    "vendorId": "system",
-    "vendorName": "System",
-    "message": "Batch crawl started (auto_only=True, force=True)",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-02T08:56:12.105320",
-    "type": "start",
-    "vendorId": "grok",
-    "vendorName": "xAI Grok",
-    "message": "Starting crawler: download_grok.py ",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-02T08:56:12.306549",
-    "type": "success",
-    "vendorId": "grok",
-    "vendorName": "xAI Grok",
-    "message": "Completed successfully in 0.2s, 0 docs stamped",
-    "details": {
-      "duration": 0.2,
-      "docCount": 443,
-      "headersAdded": 0,
-      "outputLines": 8
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-02T08:56:12.314387",
-    "type": "start",
-    "vendorId": "megallm",
-    "vendorName": "MegaLLM",
-    "message": "Starting crawler: download_megallm.py ",
-    "details": null
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-02T08:56:12.419585",
-    "type": "success",
-    "vendorId": "megallm",
-    "vendorName": "MegaLLM",
-    "message": "Completed successfully in 0.1s, 0 docs stamped",
-    "details": {
-      "duration": 0.1,
-      "docCount": 443,
-      "headersAdded": 0,
-      "outputLines": 8
-    }
-  },
-  {
-    "id": 501,
-    "timestamp": "2026-11-02T08:56:12.424520",
-    "type": "start",
-    "vendorId": "minimax",
-    "vendorName": "MiniMax",
-    "message": "Starting crawler: download_minimax.py ",
-    "details": null
-  },
-  {
-    "id": 501,
     "timestamp": "2026-11-02T08:56:20.547333",
     "type": "success",
     "vendorId": "minimax",
@@ -5885,6 +5625,266 @@
     "message": "Batch crawl completed: 6 success, 0 failed",
     "details": {
       "totalDuration": 239.45,
+      "successCount": 6,
+      "failCount": 0,
+      "results": [
+        {
+          "name": "xAI Grok",
+          "success": true
+        },
+        {
+          "name": "MegaLLM",
+          "success": true
+        },
+        {
+          "name": "MiniMax",
+          "success": true
+        },
+        {
+          "name": "Zhipu BigModel (CN)",
+          "success": true
+        },
+        {
+          "name": "Anthropic Claude",
+          "success": true
+        },
+        {
+          "name": "Google Gemini",
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:18.630959",
+    "type": "start",
+    "vendorId": "system",
+    "vendorName": "System",
+    "message": "Batch crawl started (auto_only=True, force=True)",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:18.635741",
+    "type": "start",
+    "vendorId": "grok",
+    "vendorName": "xAI Grok",
+    "message": "Starting crawler: download_grok.py ",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:18.836766",
+    "type": "success",
+    "vendorId": "grok",
+    "vendorName": "xAI Grok",
+    "message": "Completed successfully in 0.2s, 0 docs stamped",
+    "details": {
+      "duration": 0.2,
+      "docCount": 443,
+      "headersAdded": 0,
+      "outputLines": 8
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:18.841417",
+    "type": "start",
+    "vendorId": "megallm",
+    "vendorName": "MegaLLM",
+    "message": "Starting crawler: download_megallm.py ",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:18.945582",
+    "type": "success",
+    "vendorId": "megallm",
+    "vendorName": "MegaLLM",
+    "message": "Completed successfully in 0.09s, 0 docs stamped",
+    "details": {
+      "duration": 0.09,
+      "docCount": 443,
+      "headersAdded": 0,
+      "outputLines": 8
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:18.950454",
+    "type": "start",
+    "vendorId": "minimax",
+    "vendorName": "MiniMax",
+    "message": "Starting crawler: download_minimax.py ",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:27.071291",
+    "type": "success",
+    "vendorId": "minimax",
+    "vendorName": "MiniMax",
+    "message": "Completed successfully in 8.12s, 0 docs stamped",
+    "details": {
+      "duration": 8.12,
+      "docCount": 443,
+      "headersAdded": 0,
+      "outputLines": 53
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:27.076131",
+    "type": "start",
+    "vendorId": "zhipu",
+    "vendorName": "Zhipu BigModel (CN)",
+    "message": "Starting crawler: download_zhipu.py ",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:31.185892",
+    "type": "success",
+    "vendorId": "zhipu",
+    "vendorName": "Zhipu BigModel (CN)",
+    "message": "Completed successfully in 4.1s, 0 docs stamped",
+    "details": {
+      "duration": 4.1,
+      "docCount": 443,
+      "headersAdded": 0,
+      "outputLines": 23
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:09:31.190806",
+    "type": "start",
+    "vendorId": "claude",
+    "vendorName": "Anthropic Claude",
+    "message": "Starting crawler: batch_download_docs.py --claude-only",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:12:56.691371",
+    "type": "success",
+    "vendorId": "claude",
+    "vendorName": "Anthropic Claude",
+    "message": "Completed successfully in 205.49s, 0 docs stamped",
+    "details": {
+      "duration": 205.49,
+      "docCount": 443,
+      "headersAdded": 0,
+      "outputLines": 1064
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:12:56.696347",
+    "type": "start",
+    "vendorId": "gemini",
+    "vendorName": "Google Gemini",
+    "message": "Starting crawler: batch_download_docs.py --gemini-only",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.894308",
+    "type": "success",
+    "vendorId": "gemini",
+    "vendorName": "Google Gemini",
+    "message": "Completed successfully in 21.19s, 0 docs stamped",
+    "details": {
+      "duration": 21.19,
+      "docCount": 443,
+      "headersAdded": 0,
+      "outputLines": 96
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.899116",
+    "type": "skip",
+    "vendorId": "openai",
+    "vendorName": "OpenAI",
+    "message": "Skipped (requires browser)",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.903476",
+    "type": "skip",
+    "vendorId": "moonshot",
+    "vendorName": "Moonshot Kimi",
+    "message": "Skipped (requires browser)",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.907845",
+    "type": "skip",
+    "vendorId": "zhipu_en",
+    "vendorName": "Zhipu BigModel (EN)",
+    "message": "Skipped (requires browser)",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.912176",
+    "type": "skip",
+    "vendorId": "meta",
+    "vendorName": "Meta Llama",
+    "message": "Skipped (requires browser)",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.916506",
+    "type": "skip",
+    "vendorId": "deepseek",
+    "vendorName": "DeepSeek",
+    "message": "Skipped (requires browser)",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.920848",
+    "type": "skip",
+    "vendorId": "mimo",
+    "vendorName": "Xiaomi MiMo",
+    "message": "Skipped (requires browser)",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.925182",
+    "type": "info",
+    "vendorId": "system",
+    "vendorName": "System",
+    "message": "Rebuilding docs index...",
+    "details": null
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.933368",
+    "type": "error",
+    "vendorId": "system",
+    "vendorName": "System",
+    "message": "Failed to rebuild index: [Errno 2] No such file or directory: 'docs-site/docs-index.json'",
+    "details": {
+      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/LLM-Docs/LLM-Docs/scripts/auto_crawler.py\", line 476, in crawl_all\n    build_index()\n  File \"/home/runner/work/LLM-Docs/LLM-Docs/scripts/build_docs_site.py\", line 246, in build_index\n    with open(index_path, 'w', encoding='utf-8') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'docs-site/docs-index.json'\n"
+    }
+  },
+  {
+    "id": 501,
+    "timestamp": "2026-11-13T09:13:17.937744",
+    "type": "complete",
+    "vendorId": "system",
+    "vendorName": "System",
+    "message": "Batch crawl completed: 6 success, 0 failed",
+    "details": {
+      "totalDuration": 239.29,
       "successCount": 6,
       "failCount": 0,
       "results": [
